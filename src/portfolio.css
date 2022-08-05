@@ -1,4 +1,32 @@
-h1 {
-  font-family: "Playfair Display SC", serif;
-  background-color: aquamarine;
+:root {
+  --branding-color: #fefbf7;
+  --secondary-color: #ff862f;
+  --primary-heading-font: "Playfair Display SC", serif;
+  --second-heading-font: "Playfair Display", serif;
+  --default-font: "Montserrat", sans-serif;
+}
+
+.hero {
+  text-align: center;
+  background-color: var(--branding-color);
+  padding: 160px 30px;
+}
+
+.hero h1 {
+  font-size: 96px;
+  font-family: var(--primary-heading-font);
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-family: var(--primary-heading-font);
+  font-weight: bold;
+}
+
+.hero h4 {
+  font-family: var(--default-font);
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 17px;
 }
