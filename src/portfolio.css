@@ -21,6 +21,12 @@ p {
   margin-bottom: 55px;
 }
 
+a {
+  font-family: var(--default-font);
+  font-size: 17px;
+  line-height: 2em;
+  letter-spacing: 0.5px;
+}
 .hero {
   text-align: center;
   background-color: var(--branding-color);
@@ -39,7 +45,9 @@ p {
   font-weight: bold;
 }
 
-.hero h3 {
+.hero h3,
+.about-me h3,
+.work-experience h3 {
   font-family: var(--default-font);
   font-size: 24px;
   font-weight: 500;
@@ -51,19 +59,75 @@ p {
   margin-top: 50px;
 }
 
+.about-me {
+  padding: 100px 0 80px 0;
+  margin-top: 10px;
+}
+
 .portfolio-project {
   text-align: right;
 }
 
+.work-experience,
+.skills {
+  margin-top: 60px;
+}
+
+.work {
+  background-color: var(--branding-color);
+}
+
+.lc {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1400px) {
+  .about-me {
+    margin-top: 0 auto;
+    padding: 100px 0 50px 0;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .work-experience,
+  .skills {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 @media (max-width: 990px) {
   .description-project {
-    margin-top: 0;
-    padding: 140px 0;
+    margin-top: 0 auto;
+    padding: 100px 0;
     text-align: center;
   }
 
   .description-project h2 {
     font-size: 46px;
+  }
+
+  .work {
+    margin-top: 80px;
+  }
+
+  .about-me {
+    margin-top: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .about-me h2,
+  .work-experience h2,
+  .skills h2 {
+    font-size: 46px;
+  }
+
+  .my-image {
+    margin: 0 auto !important;
+    width: 80% !important;
+    display: block !important;
   }
 }
 
@@ -74,6 +138,33 @@ p {
 
   .description-project h2 {
     font-size: 40px;
+  }
+
+  .about-me {
+    padding: 30px 0 20px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about-me h2,
+  .work-experience h2,
+  .skills h2 {
+    font-size: 40px;
+  }
+
+  .work-experience,
+  .skills {
+    text-align: center;
+  }
+
+  .my-image {
+    margin: 0 auto !important;
+    width: 80% !important;
+    display: block !important;
+  }
+
+  .my-image-class {
+    padding: 0px !important;
   }
 
   .hero {
@@ -98,6 +189,12 @@ p {
   width: 100%;
 }
 
+.my-image {
+  margin: 116px 20px 0 20px;
+  width: 100%;
+  border-radius: 20px;
+}
+
 .project-button {
   border: 1px solid var(--secondary-color);
   border-radius: 50px;
@@ -111,5 +208,31 @@ p {
 .project-button:hover {
   padding-right: 50px;
   padding-left: 50px;
+  color: var(--secondary-color);
+}
+
+.text-links {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.text-links:hover {
+  text-decoration: line-through;
+  color: var(--secondary-color);
+}
+
+.my-cv-button {
+  border: 1px solid var(--secondary-color);
+  border-radius: 50px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 60px;
+}
+
+.my-cv-button:hover {
+  padding-right: 80px;
+  padding-left: 80px;
   color: var(--secondary-color);
 }
