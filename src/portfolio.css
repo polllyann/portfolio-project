@@ -88,6 +88,56 @@ a {
   margin-bottom: 30px;
 }
 
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+.nav-bar {
+  background-color: var(--branding-color);
+}
+
+.nav-links {
+  color: black;
+  font-family: var(--default-font);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  transition: all 100ms ease-in-out;
+}
+
+.home-link {
+  font-weight: 600;
+}
+
+nav li.active a,
+.nav-links:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.nav-icons {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 100ms ease-in-out;
+}
+
+.nav-icons:hover {
+  color: black;
+}
+
 @media (max-width: 1400px) {
   .content-container {
     margin-top: 0 auto;
@@ -141,10 +191,6 @@ a {
     padding: 50px 0;
   }
 
-  .description-project h2 {
-    font-size: 40px;
-  }
-
   .content-container {
     padding: 30px 0 20px 0;
     margin-left: 10px;
@@ -152,6 +198,7 @@ a {
     text-align: center;
   }
 
+  .description-project h2,
   .content-container h2,
   .work-experience h2,
   .skills h2 {
@@ -187,6 +234,35 @@ a {
 
   .hero h3 {
     font-size: 16px;
+  }
+
+  .nav-icons,
+  .nav-links {
+    font-size: 16px;
+  }
+  nav li {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 335px) {
+  .nav-icons,
+  .nav-links {
+    font-size: 12px;
+  }
+  nav li {
+    margin-left: 5px;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .description-project h2,
+  .content-container h2,
+  .work-experience h2,
+  .skills h2 {
+    font-size: 30px;
   }
 }
 
