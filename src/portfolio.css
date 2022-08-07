@@ -222,6 +222,10 @@ a {
   color: var(--secondary-color);
 }
 
+.contact-links {
+  color: black;
+}
+
 .text-links:hover {
   text-decoration: line-through;
   color: var(--secondary-color);
