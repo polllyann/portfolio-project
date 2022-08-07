@@ -54,6 +54,13 @@ a {
   margin-top: 17px;
 }
 
+.third-header {
+  font-family: var(--second-heading-font);
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 17px;
+}
+
 .description-project {
   padding: 176px 0;
   margin-top: 50px;
@@ -85,7 +92,6 @@ a {
   .content-container {
     margin-top: 0 auto;
     padding: 100px 0 50px 0;
-    text-align: center;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -115,7 +121,6 @@ a {
   .content-container {
     margin-top: 0 auto;
     padding: 50px 0;
-    text-align: center;
   }
 
   .content-container h2,
@@ -144,6 +149,7 @@ a {
     padding: 30px 0 20px 0;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
   }
 
   .content-container h2,
@@ -235,4 +241,8 @@ a {
   padding-right: 80px;
   padding-left: 80px;
   color: var(--secondary-color);
+}
+
+.project-view-link:hover {
+  box-shadow: 0px 0px 13px rgba(255, 134, 47, 0.3);
 }
