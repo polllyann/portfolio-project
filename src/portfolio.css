@@ -46,7 +46,7 @@ a {
 }
 
 .hero h3,
-.about-me h3,
+.content-container h3,
 .work-experience h3 {
   font-family: var(--default-font);
   font-size: 24px;
@@ -59,7 +59,7 @@ a {
   margin-top: 50px;
 }
 
-.about-me {
+.content-container {
   padding: 100px 0 80px 0;
   margin-top: 10px;
 }
@@ -82,7 +82,7 @@ a {
 }
 
 @media (max-width: 1400px) {
-  .about-me {
+  .content-container {
     margin-top: 0 auto;
     padding: 100px 0 50px 0;
     text-align: center;
@@ -112,13 +112,13 @@ a {
     margin-top: 80px;
   }
 
-  .about-me {
+  .content-container {
     margin-top: 0 auto;
     padding: 50px 0;
     text-align: center;
   }
 
-  .about-me h2,
+  .content-container h2,
   .work-experience h2,
   .skills h2 {
     font-size: 46px;
@@ -140,13 +140,13 @@ a {
     font-size: 40px;
   }
 
-  .about-me {
+  .content-container {
     padding: 30px 0 20px 0;
     margin-left: 10px;
     margin-right: 10px;
   }
 
-  .about-me h2,
+  .content-container h2,
   .work-experience h2,
   .skills h2 {
     font-size: 40px;
