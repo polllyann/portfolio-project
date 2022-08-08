@@ -291,6 +291,7 @@ nav li.active a,
 .project-button:hover {
   padding-right: 50px;
   padding-left: 50px;
+  border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
 }
 
