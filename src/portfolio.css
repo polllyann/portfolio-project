@@ -289,7 +289,8 @@ nav li.active a,
 }
 
 .project-button:hover,
-.project-button:focus {
+.project-button:focus,
+.project-button:active {
   padding-right: 50px;
   padding-left: 50px;
   border: 1px solid var(--secondary-color);
@@ -317,7 +318,8 @@ nav li.active a,
 }
 
 .contact-me-button:hover,
-.contact-me-button:focus {
+.contact-me-button:focus,
+.contact-me-button:active {
   padding-right: 50px;
   padding-left: 50px;
   color: white;
