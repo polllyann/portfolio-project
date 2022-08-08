@@ -292,6 +292,10 @@ nav li.active a,
   padding-right: 50px;
   padding-left: 50px;
   border: 1px solid var(--secondary-color);
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
   color: var(--secondary-color);
 }
 
@@ -315,6 +319,12 @@ nav li.active a,
   padding-right: 50px;
   padding-left: 50px;
   color: white;
+  border: 1px solid var(--secondary-color);
+  border-radius: 50px;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .text-links {
