@@ -27,6 +27,7 @@ a {
   line-height: 2em;
   letter-spacing: 0.5px;
 }
+
 .hero {
   text-align: center;
   background-color: var(--branding-color);
@@ -325,11 +326,6 @@ nav li.active a,
   text-decoration: underline;
 }
 
-.text-links:hover {
-  text-decoration: line-through;
-  color: var(--secondary-color);
-}
-
 .my-cv-button {
   border: 1px solid var(--secondary-color);
   border-radius: 50px;
@@ -366,6 +362,7 @@ nav li.active a,
 .my-email {
   color: black;
 }
+.text-links:hover,
 .my-email:hover {
   color: var(--secondary-color);
   text-decoration: line-through;
